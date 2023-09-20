@@ -1,5 +1,7 @@
 # Creating IoT Energy Solutions
 
+https://vandebron.nl/
+
 The idea is to exit grey energy and enter green energy. Currently, the Netherlands uses 40% green energy.
 
 ## Main challenges
@@ -24,4 +26,12 @@ Sometimes we want to reliably connect to the edge devices, for this they leverag
 
 ## ONLOGIC
 
+https://www.onlogic.com, https://www.jeffgeerling.com/tags/onlogic
+
 Their vision is to become the global leader for hardware in Edge Computing.
+
+70% of their hardware is in the industrial or rugged space. This means they have to handle abnormal circumstances regarding temperatures, salt air and weird power consumptions.
+
+Their hardware is built partnering with RaspberryPi (but their supply chain is better _lol_).
+
+
