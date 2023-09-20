@@ -34,4 +34,6 @@ Their vision is to become the global leader for hardware in Edge Computing.
 
 Their hardware is built partnering with RaspberryPi (but their supply chain is better _lol_).
 
+## Extra
 
+They use the [Modbus](https://www.modbustools.com/modbus.html) protocol wrapped in a WireGuard tunnel to communicate with the device.
