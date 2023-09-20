@@ -34,3 +34,5 @@ The [ArgoCD Pull Request Generator](https://argocd-applicationset.readthedocs.io
 by default by ArgoCD.
 
 Things like [Crossplane](https://www.crossplane.io/) work really well with this, because you can bootstrap entire environments, also outside the cluster.
+
+This guy uses [Taskfile](https://taskfile.dev/) for most of his manual automation.
