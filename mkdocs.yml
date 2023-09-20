@@ -33,3 +33,5 @@ markdown_extensions:
   - pymdownx.snippets:
       base_path: .
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
