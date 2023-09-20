@@ -7,3 +7,9 @@
 - https://sysdig.com/ looks sick. Uses Falco underneath
 - https://argo-rollouts.readthedocs.io/en/stable/
 - https://www.openpolicyagent.org/
+
+## Videos to watch
+
+- Kubernetes Documentary - Part 1: https://www.youtube.com/watch?v=BE77h7dmoQU
+- Kubernetes Documentary - Part 2: https://www.youtube.com/watch?v=318elIq37PE
+
