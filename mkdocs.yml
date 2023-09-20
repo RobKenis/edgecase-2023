@@ -5,6 +5,10 @@ repo_name: edgecase-2023
 plugins:
   - search
   - git-revision-date-localized
+  - termynal:
+      prompt_literal_start:
+        - "$"
+        - ">"
 
 theme:
   name: material
