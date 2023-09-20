@@ -32,3 +32,5 @@ Each PR is picked up by Argo, creates a new cluster using vcluster, that cluster
 
 The [ArgoCD Pull Request Generator](https://argocd-applicationset.readthedocs.io/en/stable/Generators-Pull-Request/) is used to create a vcluster per PR. Nothing custom, this is supported
 by default by ArgoCD.
+
+Things like [Crossplane](https://www.crossplane.io/) work really well with this, because you can bootstrap entire environments, also outside the cluster.
