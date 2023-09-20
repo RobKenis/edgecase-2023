@@ -1,0 +1,17 @@
+# IDE
+.idea/
+.vscode/
+
+# CDK8S
+*.d.ts
+*.js
+!jest.config.js
+node_modules
+dist/
+
+# MkDocs
+site/
+docs/generated/
+
+# Python
+venv/
