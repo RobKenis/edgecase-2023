@@ -1,1 +1,3 @@
-# Enabling Experimentation with Ephemeral Environment (Workshop)s
+# Enabling Experimentation with Ephemeral Environments (Workshop)
+
+[Link to GitHub](https://github.com/rio/enabling-experimentation-workshop)
