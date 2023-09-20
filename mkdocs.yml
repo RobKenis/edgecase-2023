@@ -4,9 +4,7 @@ repo_name: edgecase-2023
 
 plugins:
   - search
-  - git-revision-date-localized:
-      exclude:
-        - index.md
+  - git-revision-date-localized
 
 theme:
   name: material

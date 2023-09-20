@@ -17,3 +17,11 @@ storage in place.
 ## Proof of Concept
 
 Hardware: Intel NUC. Software: Ubuntu with k3s, basic auth and no update procedure.
+
+They used [Talos Linux](https://www.talos.dev/), this is a minimal system, hardened by default. It is built for running Kubernetes. No SSH, only accessible over mTLS and has a readonly root filesystem.
+
+Sometimes we want to reliably connect to the edge devices, for this they leverage a unique WireGuard tunnel per device.
+
+## ONLOGIC
+
+Their vision is to become the global leader for hardware in Edge Computing.
