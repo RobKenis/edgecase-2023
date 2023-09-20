@@ -118,21 +118,21 @@ Kubernetes is awesome at the edge. Acknowledge your constraints. Don't be cute a
 ## Questions
 
 - Do you do chaos engineering?
-  - The platform team does this. For example "what happens when the network interface breaks during an OS upgrade". Updates are phased overtime. There's no
-    formal chaos engineering where they break things in production.
+    - The platform team does this. For example "what happens when the network interface breaks during an OS upgrade". Updates are phased overtime. There's no
+      formal chaos engineering where they break things in production.
 - More info
-  - https://brianchambers.substack.com/
+    - https://brianchambers.substack.com/
 - How do teams interact with other applications?
-  - All through the standard MQTT protocol. When teams do testing, they have a physical 3 node environment, so they can mirror a real environment for testing.
+    - All through the standard MQTT protocol. When teams do testing, they have a physical 3 node environment, so they can mirror a real environment for testing.
 - How are nodes provisioned?
-  - The process is pretty custom. Mostly OverlayFS and a custom implementation that looks like Ubuntu cloud-init. And somehting called "HAMs" but I can't find that.
+    - The process is pretty custom. Mostly OverlayFS and a custom implementation that looks like Ubuntu cloud-init. And somehting called "HAMs" but I can't find that.
 - What about distributed storage at the edge?
-  - MongoDB is resilient across nodes in the cluster. There is no storage outside of the NUC, so everything is local. The MQTT broker runs on a single node, so the persistence in Mongo.
+    - MongoDB is resilient across nodes in the cluster. There is no storage outside of the NUC, so everything is local. The MQTT broker runs on a single node, so the persistence in Mongo.
 - How big is the platform team?
-  - Started of with 3 people. Went up to 6 when they were in production. Now there's 2 teams, one doing core platform and one doing IoT. But basically still a small team. The support
-    work like wiping the nodes is external, so the plaform team does not have to do that.
+    - Started of with 3 people. Went up to 6 when they were in production. Now there's 2 teams, one doing core platform and one doing IoT. But basically still a small team. The support
+      work like wiping the nodes is external, so the plaform team does not have to do that.
 - How do you make the cluster HA?
-  - K3s stores state in SQLite. If there's an issue on cluster-level, which doesn't happen a lot, they rebuild the cluster. _lol_ If a single node goes down, it's fine, there's a 
-    process to recover from a master failure too. Then a replacement node is shipped.
+    - K3s stores state in SQLite. If there's an issue on cluster-level, which doesn't happen a lot, they rebuild the cluster. _lol_ If a single node goes down, it's fine, there's a 
+      process to recover from a master failure too. Then a replacement node is shipped.
 - How long does a store survive without upstream connectivity?
-  - The entire stack does dark. A backup internet connection is reserved for incoming orders and credit card processing. The edge cluster is down, but the restaurant keeps functioning.
+    - The entire stack does dark. A backup internet connection is reserved for incoming orders and credit card processing. The edge cluster is down, but the restaurant keeps functioning.
