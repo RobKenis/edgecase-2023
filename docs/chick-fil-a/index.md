@@ -87,3 +87,30 @@ and logs of IoT devices. For example a fryer is not always built by a reputable 
 your logging system in the cloud.
 
 Vector in the cloud collects metrics and forwards them to the team's preferred solution like CloudWatch, Datadog..
+
+## Principles
+
+### Acknowledge constraints
+
+Some constraints are good to build around and some you should just accept. Things like ports on a switch you should just accept. There's a small
+physical space, no server closet, so you need to work in a confined space. Small budget leads to hardware constraints. Field tech support leads
+to hard troubleshooting, so you want a hands-off solution.
+
+### Just enough Kubernetes
+
+Don't be cute, don't do too many things. At the edge, keep it lightweight. Keep it vanilla and as simple as possible, limit KubeAPI interactions.
+Embrace the Kube movement and open source ecosystem. **Default to making things highly recoverable over super high available**. Things will break,
+so make it easy to recover to a working state.
+
+### Cattle, not pets
+
+Zero touch provisioning minimized human touch, employees can just plug in the nodes and don't need to do anything else. A "wipe" pattern makes it possible
+to wipe nodes and reprovision them to optimize troubleshooting. This also helps with the throw-away pattern, if a node doesn't work, throw it out and
+replace it.
+
+Re-hydrate pattern encourages teams to send critical data to the cloud. This makes it possible to rebuild the application after rebuilding the cluster.
+It's like a new iPhone, you sync your new device with your Apple account and everything is back like it should be.
+
+## Summary
+
+Kubernetes is awesome at the edge. Acknowledge your constraints. Don't be cute and make things easy! Mirror the cloud paradigms as much as you can.
