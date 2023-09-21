@@ -47,3 +47,7 @@ an insight to the syncing of your desired and actual state, which ~~limits~~ rem
 ## Providing value
 
 Scale matters, remove repitition. Makes standardization easier. Configuration drift is detectable and configuration management is easier.
+
+## Summary
+
+Kubernetes operators help remove configuration drift in a scalable manner.
