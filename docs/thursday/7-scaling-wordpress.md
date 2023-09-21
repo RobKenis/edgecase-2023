@@ -60,3 +60,4 @@ is gone.
 ### Things that I learned
 
 - They should have rewritten the donation endpoint to some proper language and put the frontend on S3.
+    - _Nevermind. I spoke with the engineers and it's not that simple. The donation page is a Wordpress plugin that is distributed to charity sites. So it's not like all the voting sites are under their control._
