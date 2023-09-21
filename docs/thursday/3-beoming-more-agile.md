@@ -13,3 +13,13 @@ all the cool things to make change easier. This is the result..
 ![CNCF Landscape](../img/cncflandscape.png)
 
 This landscape is driven by "I'll just build it myself". When you build a tool, it's designed for a specific purpose. You have blind spots.
+
+This talk is brought to you by [LogicMonitor](https://www.logicmonitor.com/), a platform built for eliminating blind spots.
+
+## The goals of observability
+
+- Immediate notifications: no emails, but something direct like Slack or Discord or SMS (hello Mr. Dinosaur)
+- Answer questions based on observability data: tie tracing and logs and metrics together
+
+LogicMonitor started as an infrastructure platform, it started off in a datacenter. Then the app stack is build on top of it, traces and logs. Then APM is sprinkled on top. _aaaaargh he starts mentioning AI_
+All these things combined lead to AIOps, which leverages all your data to pinpoint problems. _Note to self: it's not AI, it's a bunch of if-statements and timestamps_
