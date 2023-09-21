@@ -1,5 +1,7 @@
 # Edgecase 2023
 
+[![Documentation](https://github.com/RobKenis/edgecase-2023/actions/workflows/documentation.yaml/badge.svg)](https://github.com/RobKenis/edgecase-2023/actions/workflows/documentation.yaml)
+
 ## Notes (not really worth putting in the docs)
 
 - https://www.cncf.io/projects/akri/ makes fancy protocols pluggable
