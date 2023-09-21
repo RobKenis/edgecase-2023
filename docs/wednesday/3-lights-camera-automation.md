@@ -2,7 +2,7 @@
 
 Objective: automate home without buying new hardware and without using commerical software.
 
-## Initial seutp
+## Initial setup
 
 K3s cluster in 2 locations, the cluster contains a master node, 3 worker nodes (2 are rpi). Everything for a working Grafana with InfluxDB.
 Most of the applications are focused around energy monitoring and pool maintenance.
