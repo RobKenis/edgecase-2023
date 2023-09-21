@@ -30,3 +30,17 @@ All these things combined lead to AIOps, which leverages all your data to pinpoi
 - Which tools can we move to a hosted monitoring platform
 - Have we considered OpenTelemetry
 
+## Questions
+
+- Why is LogicMonitor not the 15th standard tool?
+    - Consolidate all sub-companies and teams and consolidate monitoring tools. _This seems like a naive answer..Why didn't I think of this?_
+    - TLDR: Remove silos
+- How do you prevent exploding costs?
+    - The technical answer: LogicMonitor does rate limiting
+    - The other answer: Reduce log rate, ask LM to stop ingesting logs. For once, you can go over your limit without being charged extra.
+- What about licensing?
+    - It's based on workloads. If you have 100 pods and 10 nodes, you need 110 licenses. _this throws smaller pods and nodes out of the window_
+    - Metric data is kept for 2 years, but they don't charge for ingested data
+- What is AIOps?
+    - It's a combination of anomaly detection in metrics and logs
+    - LogicMonitor makes a baseline. Within a week, they've built a picture. When the resource deviates from the baseline, an action can be taken. _THAT'S AN IF-STATEMENT, WHY IS IT CALLED AI_
