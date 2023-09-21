@@ -1,6 +1,6 @@
 site_name: Edgecase 2023
 repo_url: https://github.com/RobKenis/edgecase-2023
-repo_name: edgecase-2023
+repo_name: RobKenis/edgecase-2023
 
 plugins:
   - search
