@@ -51,3 +51,12 @@ Create a DaemonSet to pre-pull the image to all the nodes. And overprovision the
 
 Run a simple nginx container with an error page as a default backend. This handles request when all Wordpress pods are down. The static HTML is also stored on S3 so they can fallback even when everything
 is gone.
+
+## What have we learned
+
+- Start load testing early on. They used K6.
+- Have some monitoring. They used Prometheus, Loki, Grafana.
+
+### Things that I learned
+
+- They should have rewritten the donation endpoint to some proper language and put the frontend on S3.
