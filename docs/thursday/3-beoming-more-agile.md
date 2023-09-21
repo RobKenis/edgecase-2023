@@ -23,3 +23,10 @@ This talk is brought to you by [LogicMonitor](https://www.logicmonitor.com/), a 
 
 LogicMonitor started as an infrastructure platform, it started off in a datacenter. Then the app stack is build on top of it, traces and logs. Then APM is sprinkled on top. _aaaaargh he starts mentioning AI_
 All these things combined lead to AIOps, which leverages all your data to pinpoint problems. _Note to self: it's not AI, it's a bunch of if-statements and timestamps_
+
+## Observability in your team
+
+- Look at what tools you have that take time
+- Which tools can we move to a hosted monitoring platform
+- Have we considered OpenTelemetry
+
