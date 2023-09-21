@@ -1,11 +1,11 @@
-name: Delete old workflow runs
+name: Cleanup
 on:
   schedule:
     - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
-  del_runs:
+  cleanup_old_runs:
     runs-on: ubuntu-latest
     permissions:
       actions: write
