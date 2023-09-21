@@ -1,4 +1,4 @@
-# Navigating the Stormy Seas of Kuberentes
+# Navigating the Stormy Seas of Kubernetes
 
 _Brough to you by [StackState](https://www.stackstate.com/)._
 
