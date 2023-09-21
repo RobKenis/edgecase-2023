@@ -40,4 +40,10 @@ Using an operator leans on top of the _well oiled_ machine called Kubernetes. _D
 ### A little sprinkle of GitOps
 
 It simplifies software development and applies version controler and CI/CD best practices. Running `kubectl` is not a scalable option. GitOps enables you to run monitoring on your GitOps engine and gives
-an insight to the syncing of your desired and actual state, which ~limits~ removes configuration drift.
+an insight to the syncing of your desired and actual state, which ~~limits~~ removes configuration drift.
+
+!!! quote "Just reporting that something has configuration drift, could be a viable solution"
+
+## Providing value
+
+Scale matters, remove repitition. Makes standardization easier. Configuration drift is detectable and configuration management is easier.
